@@ -1,0 +1,10 @@
+name: code-review-env
+description: AI Code Review Assistant Environment
+version: 1.0
+
+entrypoint: env.environment:CodeReviewEnv
+
+tasks:
+  - easy
+  - medium
+  - hard
